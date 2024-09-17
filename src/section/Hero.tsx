@@ -7,6 +7,8 @@ import { Target } from "../components/Target";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants/index.js";
 import Rocket from "../components/Rocket.jsx";
+import Rings from "../components/Rings.jsx";
+import Cube from "../components/Cube.jsx";
 
 const Hero = () => {
 
@@ -42,6 +44,8 @@ const Hero = () => {
               <group>
                 <Target position={sizes.targetPosition} />
                 <Rocket position={sizes.rocketPosition} />
+                <Rings position={sizes.ringPosition} />
+                <Cube position={sizes.cubePosition} />
               </group>
 
               <ambientLight intensity={1} />
