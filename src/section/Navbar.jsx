@@ -50,7 +50,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu */}
-      <div className={`nav-sidebar ${isOpen ? "max-h-screen" : "max-h-0"}`}>
+      <div className={`nav-sidebar ${isOpen ? 'max-h-screen' : 'max-h-0'}`}>
         <nav className="p-5">
           <NavItems />
         </nav>
