@@ -44,13 +44,6 @@ const Hero = () => {
                   rotation={[0, -Math.PI, 0]}
                 />
               </HeroCamera>
-              
-              <group>
-                <Target position={sizes.targetPosition} />
-                <Rocket position={sizes.rocketPosition} />
-                <Rings position={sizes.ringPosition} />
-                <Cube position={sizes.cubePosition} />
-              </group>
 
               <ambientLight intensity={1} />
 
