@@ -6,11 +6,7 @@ import { HackerRoom } from "../components/HackerRoom";
 import { Target } from "../components/Target";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants/index.js";
-import Rocket from "../components/Rocket.jsx";
-import Rings from "../components/Rings.jsx";
-import Cube from "../components/Cube.jsx";
 import HeroCamera from "../components/HeroCamera.jsx";
-import Button from "../components/Button.jsx";
 
 const Hero = () => {
 
@@ -21,7 +17,7 @@ const Hero = () => {
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
   return (
-    <section className="min-h-screen w-full flex flex-col relative">
+    <section id="home" className="min-h-screen w-full flex flex-col relative">
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className="sm:text-3xl text-2xl font-medium text-white text-center font-generalsans">
           Hi, I am David <span className="fire-burning">🔥</span>
