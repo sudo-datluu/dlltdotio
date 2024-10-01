@@ -6,7 +6,7 @@ const Footer = () => {
           <a href="https://github.com/sudo-datluu" className="social-icon">
             <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
           </a>
-          <a href="https://linkedin.com/dllt" className="social-icon">
+          <a href="https://linkedin.com/in/dllt/" className="social-icon">
             <img src="/assets/linkedin.svg" alt="twitter" className="w-1/2 h-1/2" />
           </a>
         </div>
