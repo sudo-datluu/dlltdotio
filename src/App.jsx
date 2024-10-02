@@ -3,6 +3,7 @@ import Navbar from './section/Navbar'
 import Hero from './section/Hero'
 import About from './section/About'
 import Footer from './section/Footer'
+import Experience from './section/Experience'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Experience />
       <Footer />
     </main>
   )

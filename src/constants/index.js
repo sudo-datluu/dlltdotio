@@ -11,13 +11,13 @@ export const navLinks = [
     },
     {
       id: 3,
-      name: 'Work',
-      href: '#work',
+      name: 'Experience',
+      href: '#experience',
     },
     {
       id: 4,
-      name: 'Contact',
-      href: '#contact',
+      name: 'Resume',
+      href: '#resume',
     },
   ];
   
@@ -261,29 +261,53 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
-      duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
-      animation: 'victory',
+      name: 'Lixi. Intern',
+      location: 'Sydney, NSW, Australia',
+      duration: 'Aug 2024 - Present',
+      bulletpoints: [
+        "● Conducted in-depth research on 12 key data standards related to the loan process in the banking industry.",
+        "● Reviewed and analyzed the application of LIXI standards in real-world scenarios within the Australian banking sector.",
+        "● Mapped complex data capture processes into the LIXI data model, handling intricate details in JSON and XML files comprising over 100 fields.",
+        "● Published an interactive tutorial to guide users on effectively working with LIXI data standards."
+      ],
+      icon: '/assets/lixi.ico',
     },
     {
       id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
-      animation: 'clapping',
+      name: 'CitizenDev. Software Engineer',
+      location: 'Remote',
+      duration: 'Jan 2023 - Aug 2024',
+      bulletpoints: [
+        "● Managing outsourced projects using no-code platforms (such as FlutterFlow and Bubble.io) and Javascript.",
+        "● Developing front-end screens based on Figma designs, implementing complex logic, documenting project logs and relevant practices, and conducting thorough project testing.",
+        "● Delivered 7 projects to date with the utmost satisfaction from clients, comprising 30% of total company revenue."
+      ],
+      icon: '/assets/citizendev.png',
     },
     {
       id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
-      animation: 'salute',
+      name: 'Teko. Data Engineer',
+      location: 'Hanoi, Vietnam',
+      duration: 'Nov 2021 -  Feb 2022',
+      bulletpoints: [
+        "● Participate in end-to-end engineering solutions about data processing and data delivery and integration, including data processing job/pipeline tool suite, batch framework and platform, micro-service framework and platform such as Pyspark, Airflow, MinIO.",
+        "● Ingest, extract and transform raw data from the Internal Cooperate Big Data System to create Dim/Fact/Cube tables for publishing services. Each table may exist in the size of up to 100 million rows.",
+        "● Build, and maintain data pipelines and data flow provided to other departments.",
+        "● Practice sustainable incident response and blameless postmortems using Pytest.",
+        "● Publish about 100 services for the ETL team that help analyzed data from 2 million users of money online system."
+      ],
+      icon: '/assets/teko-logo.png',
+    },
+    {
+      id: 4,
+      name: 'cMetric. Backend & Data Developer',
+      location: 'Hanoi, Vietnam',
+      duration: 'Jan 2021 - Nov 2021',
+      bulletpoints: [
+        "● In charge of the backend development team of 3 developers for an autonomic crawling and analyzing data platform from Asian E-commerce Websites to provide information for shop owners.",
+        "● Implemented a data pipeline automated with Crontab and optimized with RabbitMQ (faster than 20 times after the undertaking), designed and built an API system using Flask and a Database system using MongoDB.",
+        "● Handled 3,000,000+ records of products daily through the process of crawling and analysing. Gained 100+ users from the launch day."
+      ],
+      icon: '/assets/cmetric-logo.png',
     },
   ];
