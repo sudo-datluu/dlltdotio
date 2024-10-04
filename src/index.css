@@ -141,8 +141,8 @@ body {
     @apply bg-black-500 px-5 py-2 min-h-12 rounded-lg shadow-black-200 shadow-2xl flex justify-center items-center text-lg text-white gap-3;
   }
 
-  .field-btn_arrow {
-    @apply w-2.5 h-2.5 object-contain invert brightness-0;
+  .download-btn-icon {
+    @apply object-contain invert brightness-0;
   }
 
   /*  footer */
@@ -252,4 +252,39 @@ body {
   100% {
     filter: contrast(180%);
   }
+}
+
+.resume-file-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 96px 0;
+  /* padding-bottom: 10px; */
+}
+
+.resume-file-load {
+  margin-top: 1em;
+  color: white;
+}
+
+.resume-file-container-document {
+  width: 100%;
+  overflow: scroll;
+  max-height: 640px;
+}
+
+.resume-file-container-document .react-pdf__Document {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-file-container-document .react-pdf__Page {
+  /* margin: 1em 0; */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.resume-file-container-document .react-pdf__message {
+  padding: 20px;
+  color: white;
 }

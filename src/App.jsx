@@ -4,6 +4,7 @@ import Hero from './section/Hero'
 import About from './section/About'
 import Footer from './section/Footer'
 import Experience from './section/Experience'
+import Resume from './section/Resume'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Hero />
       <About />
       <Experience />
+      <Resume />
       <Footer />
     </main>
   )

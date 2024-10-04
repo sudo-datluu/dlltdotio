@@ -311,3 +311,5 @@ export const navLinks = [
       icon: '/assets/cmetric-logo.png',
     },
   ];
+
+  export const resumeLink = '/assets/David-Resume.pdf'

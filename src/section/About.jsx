@@ -122,7 +122,9 @@ const About = () => {
                 <br />
                 I'm open to remote work worldwide but preferably in APAC region.
               </p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <a className="w-full" href="mailto:david.lltd.contact@gmail.com">
+                <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              </a>
             </div>
           </div>
         </div>
