@@ -265,10 +265,9 @@ export const navLinks = [
       location: 'Sydney, NSW, Australia',
       duration: 'Aug 2024 - Present',
       bulletpoints: [
-        "● Conducted in-depth research on 12 key data standards related to the loan process in the banking industry.",
-        "● Reviewed and analyzed the application of LIXI standards in real-world scenarios within the Australian banking sector.",
+        "● Conducted in-depth research on 12 key data standards related to the loan process in the Australian banking industry.",
         "● Mapped complex data capture processes into the LIXI data model, handling intricate details in JSON and XML files comprising over 100 fields.",
-        "● Published an interactive tutorial to guide users on effectively working with LIXI data standards."
+        "● Published an interactive tutorial to guide users on effectively working with LIXI data standards using Python, React, AWS CloudFront, S3 and Git lab CI/CD."
       ],
       icon: '/assets/lixi.ico',
     },
